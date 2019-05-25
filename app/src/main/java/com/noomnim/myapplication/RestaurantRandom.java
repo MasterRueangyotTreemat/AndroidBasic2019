@@ -1,7 +1,6 @@
 package com.noomnim.myapplication;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +10,7 @@ public class RestaurantRandom extends Activity {
 
     TextView textView;
     Button button;
-    String list[] = {
+    String[] list = {
             "MK Restaurant",
             "KFC",
             "Chesters Grill",
@@ -29,12 +28,11 @@ public class RestaurantRandom extends Activity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                textView.setText(getRestaurantName());
+                textView.setText( getRestaurantName());
             }
         });
     }
 
     public String getRestaurantName() {
-        return list[(int) Math.round(Math.random()*list.length - 1)];
-    }
+        return list[ (int) Math.round( Math.random()*(list.length-1) ) ];    }
 }
