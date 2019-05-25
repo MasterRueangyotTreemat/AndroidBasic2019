@@ -13,9 +13,9 @@
         <activity android:name=".SeekBarDemo" />
         <activity android:name=".RestaurantRandom" />
         <activity android:name=".ColorChange" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".EditTextDemo" />
         <activity android:name=".TextButtonChange" />
-        <activity android:name=".EditTextDemo">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
