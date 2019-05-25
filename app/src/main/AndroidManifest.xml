@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".TextButtonChange"></activity>
+        <activity android:name=".RestaurantRandom"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TextButtonChange" />
         <activity android:name=".ColorChange">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
