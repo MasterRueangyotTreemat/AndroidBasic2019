@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SeekBarDemo"></activity>
+        <activity android:name=".ColorMixer"></activity>
+        <activity android:name=".SeekBarDemo" />
         <activity android:name=".RestaurantRandom" />
         <activity android:name=".ColorChange" />
         <activity android:name=".MainActivity" />
         <activity android:name=".TextButtonChange" />
-        <activity android:name=".ColorMixer">
+        <activity android:name=".EditTextDemo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
